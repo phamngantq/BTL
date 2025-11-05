@@ -39,7 +39,7 @@ namespace WindowsFormsApp1
             this.Hide();
 
         }
-        //thử nghiệm
+        
         private void FrmHome_Load(object sender, EventArgs e)
         {
         }
