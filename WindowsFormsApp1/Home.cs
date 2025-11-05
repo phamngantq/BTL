@@ -42,7 +42,6 @@ namespace WindowsFormsApp1
         
         private void FrmHome_Load(object sender, EventArgs e)
         {
-            // Center the form on the screen
         }
     }
 }
