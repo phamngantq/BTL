@@ -62,8 +62,8 @@ namespace WindowsFormsApp1
             }
 
             //Tạo một đối tượng chứa kết nối
-            SqlConnection conn = new SqlConnection("Data Source=LAPTOP-D4IEITM3\\SQLEXPRESS02;Initial Catalog=DOAN;User ID=sa;Password=Sa@12345;TrustServerCertificate=True"); //khởi tạo đối tượng kết nối
-           //tạo chuỗi truy vấn 
+           // SqlConnection conn = new SqlConnection("Data Source=LAPTOP-D4IEITM3\\SQLEXPRESS02;Initial Catalog=DOAN;User ID=sa;Password=Sa@12345;TrustServerCertificate=True"); //khởi tạo đối tượng kết nối
+            SqlConnection conn = new SqlConnection(" Data Source = DESKTOP - 6Q70QF9\\MSSQLSERVER01; Initial Catalog = DOAN; Integrated Security = True; Encrypt = False");
             string sql = " ";
 
             if (loginMode == "ADMIN")
